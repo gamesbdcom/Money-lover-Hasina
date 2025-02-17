@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feed the Money Lover - Score Version</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Feed the Money Lover!</h1>
+    <div class="game-container">
+        <img id="man" src="neutral.png" alt="Neutral Man">
+        <div class="item-buttons">
+            <button onclick="feedMan('money')">Give Money</button>
+            <button onclick="feedMan('stone')">Give Stone</button>
+            <button onclick="feedMan('leaf')">Give Leaf</button>
+            <button onclick="feedMan('gold')">Give Gold</button>
+            <button onclick="feedMan('car')">Give Car</button>
+        </div>
+    </div>
+    <p id="message">The man is waiting for money...</p>
+    <p>Score: <span id="score">0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
