@@ -6,19 +6,19 @@ function feedMan(item) {
     const scoreDisplay = document.getElementById('score');
 
     if (item === 'money') {
-        manImage.src = 'happy.png';
+        manImage.src = 'https://i.postimg.cc/k5NjXzDH/images-1-removebg-preview.png';
         message.textContent = 'Yay! He got money and is very happy!';
         score += 10;
     } else if (item === 'gold') {
-        manImage.src = 'happy.png';
+        manImage.src = 'https://i.postimg.cc/k5NjXzDH/images-1-removebg-preview.png';
         message.textContent = 'Wow! He got Gold, he is super happy!';
         score += 20;
     } else if (item === 'car') {
-        manImage.src = 'happy.png';
+        manImage.src = 'https://i.postimg.cc/JzHrgct0/images-removebg-preview.png';
         message.textContent = 'Whoa! He got a Car! Jackpot!';
         score += 50;
     } else {
-        manImage.src = 'angry.png';
+        manImage.src = 'https://i.postimg.cc/bNTkrPRk/images-2-removebg-preview.png';
         message.textContent = 'Oops! He wanted money, not this!';
         score -= 5;
     }
