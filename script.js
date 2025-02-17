@@ -6,7 +6,7 @@ function feedMan(item) {
         manImage.src = 'https://i.postimg.cc/rmmX1wC7/images-1-removebg-preview.png'; // টাকা দিলে খুশি
         message.textContent = 'Yay! He got money and is very happy!';
     } else {
-        manImage.src = 'angry.png'; // অন্য কিছু দিলে রাগান্বিত
+        manImage.src = 'https://i.postimg.cc/NFXgX0QB/images-2-removebg-preview.png'; // অন্য কিছু দিলে রাগান্বিত
         message.textContent = 'Oops! He wanted money, not this!';
     }
 
