@@ -3,7 +3,7 @@ function feedMan(item) {
     const message = document.getElementById('message');
 
     if (item === 'money') {
-        manImage.src = 'happy.png'; // টাকা দিলে খুশি
+        manImage.src = 'https://i.postimg.cc/rmmX1wC7/images-1-removebg-preview.png'; // টাকা দিলে খুশি
         message.textContent = 'Yay! He got money and is very happy!';
     } else {
         manImage.src = 'angry.png'; // অন্য কিছু দিলে রাগান্বিত
